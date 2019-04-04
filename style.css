@@ -2,6 +2,34 @@
     width: 600px;
     background-color: black;
     margin: 0 auto;
+    display:flex;
+}
+#container > div {
+    flex-grow: 1;
+    height:75px;
+    background-color: aquamarine;
+}
+#container > div:nth-child(2) {
+background-color: deeppink;
+}
+#container > div:hover {
+    background-color: violet;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+/*
+#container {
+    width: 600px;
+    background-color: black;
+    margin: 0 auto;
 }
 div {
     width:75%;
@@ -14,3 +42,4 @@ transition: height .3s linear;
 div.test:hover {
     height: 300px;
 }
+*/
